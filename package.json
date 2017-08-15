@@ -1,0 +1,16 @@
+{
+  "name": "5.2.3-user-directory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Logan Weathersby",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0"
+  }
+}
