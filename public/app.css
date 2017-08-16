@@ -1,0 +1,54 @@
+body{
+  width: 80%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: auto;
+}
+.container{
+  border: 1px solid gray;
+  text-align: left;
+  margin: 2%;
+  width: 20%;
+}
+a{
+  font-weight: bold;
+}
+.robotPic{
+  padding-right: 2%;
+}
+.containers{
+/*display: flex;*/
+/*flex-flow: row wrap;*/
+width: 50%;
+}
+.hire{
+  color: #C00005;
+}
+.cardPic{
+border: 1px solid #E1E1E1;
+border-radius: 50%;
+float: left;
+margin-top: 5%;
+margin-right: 5%;
+}
+.adress{
+  display: inline-block;
+/*padding-top: 10%;
+/margin-left: 15%;*/
+
+}
+.edu{
+  /* margin-top: 13%; */
+/* margin-right: 10%; */
+  padding-right: 10%;
+}
+.eda{
+  margin-top: 5%;
+/* margin-right: 10%; */
+  padding-right: 17%;
+}
+.epa{
+  margin-top: 10%;
+    margin-left: 20%;
+}

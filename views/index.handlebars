@@ -1,0 +1,13 @@
+
+
+{{#each dataUsers}}
+<div class="container">
+<a href="/user/{{id}}"><img  class="robotPic" src="{{avatar}}" alt=""></a>
+  <p><a href="/user/{{id}}">{{name}}</a></p>
+  {{#if job}}
+      <p>{{job}} at {{company}}</p>
+      {{else}}
+      <p class="hire"  >Available for Hire</p>
+      {{/if}}
+</div>
+{{/each}}

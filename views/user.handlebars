@@ -1,0 +1,42 @@
+{{#if model}}
+<div class="containers">
+  <img class="cardPic" src="{{model.avatar}}" alt="">
+  <h1>{{model.name}}</h1>
+
+
+{{#if model.job}}
+  <p  >{{model.address.city}}, {{model.address.country}} |
+   {{model.job}},   {{model.company}} </p>
+  <span  > {{model.email}} | {{model.phone}} </span>
+
+{{else}}
+<p  >{{model.address.city}}, {{model.address.country}} |
+<p class="hire" >Avalible for hire!</p> </p>
+<span  > {{model.email}} | {{model.phone}} </span>
+<br>
+{{/if}}
+<div class="epa">
+ {{# if model.university}}
+
+ <label class="edu" class="adress">Education </label> <span class="adress">{{model.university}}</span>
+ {{else}}
+ {{/if}}
+ <br>
+<label class="eda" class="adress">Skills </label> <span class="adresses">{{model.skills}}</span>
+</div>
+</div>
+
+{{else}}
+<h1>Flee you fools! youre in the wrong area!</h1>
+{{/if}}
+
+
+
+
+
+
+
+
+
+
+<p><a href="/">go back!</a></p>
